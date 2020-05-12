@@ -1,0 +1,293 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) { 
+    .single-sort{
+        margin-left: 60px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .product-left {
+        width: 240px;
+    }
+    .product-right{
+        width: calc(100% - 260px);
+    }
+.navbar-nav.ml-auto li {
+    padding: 0px 5px;
+}
+form.serach-form {
+    position: relative;
+    margin-left: 30px;
+}
+.nav-btn {
+    padding: 12px 14px;
+    font-size: 17px !important;
+}
+   input.search-button {
+    padding: 11px 10px;
+    padding-left: 50px;
+    width: 170px;
+
+} 
+form.serach-form button {
+    left: 20px;
+    color: #637381;
+    font-size: 17px;
+}
+.single-btn {
+    padding: 15px 40px;
+}
+}
+
+@media (max-width: 992px){
+    .product-left{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        z-index: 9;
+        padding: 15px;
+        width: 280px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #00000017;
+        display: none;
+    }
+
+    .product-right {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .product_wrap{
+        padding-top: 70px;
+    }
+
+    .product-mbr-btn{
+        display: inline-block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .single-sort{
+        margin-left: 15px;
+    }
+.banner-text h1 {
+    font-size: 39px;
+    line-height: 50px;
+    padding-bottom: 5px;
+}
+.banner-text p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.navbar-nav.ml-auto {
+    text-align: center;
+}
+.nav-btn {
+    margin-top: 18px;
+}
+form.serach-form {
+    position: relative;
+    margin-left: 0;
+    margin-top: 10px;
+}
+input.search-button {
+    display: inline-block;
+    padding: 11px 10px;
+    padding-left: 74px;
+    width: 180px;
+}
+
+.dropdown-toggle::after {
+    right: 41%;
+}
+.skill-button {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+a.skl-button {
+    padding: 13px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.all-button-row {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 20px auto;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    float: none;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .single-sort{
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .product-right {
+        padding: 0 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    float: none;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-nav.ml-auto {
+    text-align: center;
+}
+.nav-btn {
+    margin-top: 18px;
+}
+form.serach-form {
+    position: relative;
+    margin-left: 0;
+    margin-top: 10px;
+}
+input.search-button {
+    display: inline-block;
+    padding: 11px 10px;
+    padding-left: 74px;
+    width: 180px;
+}
+form.serach-form i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    color: #637381;
+    font-size: 18px;
+    left: 38%;
+}
+.dropdown-toggle::after {
+    right: 41%;
+}
+.footer-link {
+    padding-top: 30px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .single-sort{
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    .single-sort:nth-child(even){
+        margin-left: 15px;
+    }
+    .dropdown-toggle::after {
+    right: 39%;
+}
+form.serach-form i {
+    left: 33%;
+}
+section.banner-section {
+    padding: 0px 0px;
+}
+.banner-text h1 {
+    font-size: 50px;
+    line-height: 70px;
+    padding-bottom: 0px;
+}
+.banner-text p {
+    font-size: 25px;
+    line-height: 35px;
+}
+.all-button-row {
+    display: block;
+    padding-top: 55px;
+}
+.slingle-wrp {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-link {
+    padding-top: 30px;
+}
+}
+
+@media (min-width: 318px) and (max-width: 575.98px) { 
+.all-button-row {
+    display: block;
+    padding-top: 55px;
+}
+.slingle-wrp {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-link {
+    padding-top: 30px;
+}
+.banner-text h1 {
+    font-size: 30px;
+    line-height: 45px;
+    color: #2B292D;
+    padding-bottom: 0px;
+}
+.banner-text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #2B292D;
+    font-weight: 400;
+}
+.banner-skill-box {
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+.skill-button {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+a.skl-button {
+    padding: 12px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    line-height: 20px;
+
+}
+.single-btn {
+    padding: 20px 50px;
+}
+.footer-link {
+    padding-top: 30px;
+    text-align: center;
+}
+.footer-logo {
+    text-align: center;
+}
+.copyright-area {
+    padding-top: 80px;
+}
+form.serach-form i {
+    left: 19%;
+}
+.dropdown-toggle::after {
+    right: 29%;
+}
+}
