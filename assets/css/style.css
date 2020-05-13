@@ -634,3 +634,98 @@ footer {
     max-width: 150px;
 }
 /* footer css end here  */
+
+
+/* detail page css  */
+
+/* banner section css  */
+.detail-banner-section{
+    padding: 40px 0px;
+}
+.detail-progress-item .progress-text span {
+  color: #444eff;
+  font-size: 14px;
+}
+
+.detail-progress-item {
+  margin-bottom: 18px;
+}
+.detail-skill-wrapper {
+    padding-left: 50px;
+    width: 100%;
+    padding-top: 90px;
+}
+.detail-banner-text h2 {
+    color: rgba(0,0,0,0.82);
+    font-size: 34px;
+    line-height: 40px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.detail-banner-text p {
+    color: #454fff;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+
+/* micro-course-banner */
+
+.micro-course-banner {
+    position: relative;
+    margin-top: 90px;
+    border-top: 2px solid #e0e0e0;
+}
+.micro-course-banner img {
+    width: 100%;
+}
+.micro-courses-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.micro-courses-text h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+/* slider  */
+.course-slider {
+    margin-top: 75px;
+    margin-bottom: 8px;
+}
+.single-product.slider-item .product-img img {
+    width: 100%;
+}
+.single-product.slider-item{
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+}
+.single-product.slider-item p.product-teg {
+    font-size: 18px;
+    padding: 0 10px;
+    margin-bottom: 0px;
+    color: #aaa9ab;
+}
+.slick-prev.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    transform: translateY(-50%);
+    color: #4651ff;
+}
+
+.slick-next.slick-arrow {
+      position: absolute;
+    top: 50%;
+    right: -20px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    transform: translateY(-50%);
+    color: #4651ff;
+}

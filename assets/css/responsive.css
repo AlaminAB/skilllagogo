@@ -46,6 +46,23 @@ form.serach-form button {
 .single-btn {
     padding: 15px 40px;
 }
+
+.detail-banner-text h2 {
+    color: rgba(0,0,0,0.82);
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.slick-prev.slick-arrow {
+    left: -18px;
+
+}
+.slick-next.slick-arrow {
+
+    right: -18px;
+
+}
 }
 
 @media (max-width: 992px){
@@ -135,6 +152,22 @@ a.skl-button {
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* detail  */
+.detail-banner-text h2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.detail-skill-wrapper {
+    padding-left: 10px;
+    width: 100%;
+    padding-top: 20px;
+}
+.micro-courses-text h2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 32px;
 }
 }
 
@@ -229,6 +262,23 @@ section.banner-section {
 .footer-link {
     padding-top: 30px;
 }
+.detail-skill-wrapper {
+    padding-left: 0;
+    width: 100%;
+    padding-top: 50px;
+}
+.micro-courses-text h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+.footer-link {
+    padding-top: 30px;
+    text-align: center;
+}
+.footer-logo {
+    text-align: center;
+}
 }
 
 @media (min-width: 318px) and (max-width: 575.98px) { 
@@ -289,5 +339,24 @@ form.serach-form i {
 }
 .dropdown-toggle::after {
     right: 29%;
+}
+.detail-banner-text h2 {
+    font-size: 19px;
+    line-height: 26px;
+}
+.detail-skill-wrapper {
+    padding-left: 0;
+    width: 100%;
+    padding-top: 40px;
+}
+.micro-courses-text h2 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+.navbar-brand img {
+    width: 100%;
+    max-width: 120px;
 }
 }
