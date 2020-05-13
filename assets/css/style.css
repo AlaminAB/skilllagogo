@@ -729,3 +729,6 @@ footer {
     transform: translateY(-50%);
     color: #4651ff;
 }
+.slick-slide {
+    outline: none
+}
