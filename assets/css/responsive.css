@@ -359,4 +359,7 @@ form.serach-form i {
     width: 100%;
     max-width: 120px;
 }
+.more-btn {
+    padding: 12px 100px;
+    }
 }
