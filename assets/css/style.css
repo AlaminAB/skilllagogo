@@ -425,6 +425,7 @@ a.skl-button:hover {
   margin: 0 auto;
   margin-top: 55px;
   color: #444eff;
+  font-family: 'Avenir-Black',sans-serif;
 }
 .more-btn:hover{
   background:#444eff;
@@ -512,6 +513,51 @@ ul.sub-skill li a{
     color: inherit;
 }
 
+
+ul.skill-wrap li label input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+}
+
+span.radio-style {
+    position: relative;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #767677;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    top: 10px;
+    cursor: pointer;
+}
+
+span.radio-style:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #444eff;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+ul.skill-wrap li label input:checked ~ span.radio-style:after{
+    display: block;
+}
+
+ul.skill-wrap li label input:checked ~ span.radio-style{
+    border: 2px solid #444eff;
+}
+
+label.d-block.m-0.p-0.w-100 {
+    cursor: pointer;
+    font-family: 'Avenir-Black',sans-serif;
+}
+
 .pl-title{
     font-size: 13px;
 }
@@ -522,7 +568,7 @@ ul.sub-skill li a{
 }
 
 .single-product{
-    box-shadow: 0 0 30px #00000020;
+    box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.09);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -556,6 +602,7 @@ p.product-teg i{
 .btn.btn-primary{
     background-color: #444EFF;
     border: 2px solid #444EFF;
+    font-family: 'Avenir-Black',sans-serif;
 }
 
 .btn.btn-primary:hover{
@@ -611,11 +658,13 @@ footer {
     font-size: 22px;
     line-height: 30px;
     padding-bottom: 12px;
+    font-family: 'Avenir-Black',sans-serif;
 }
 
 .footer-link ul li a {
     color: #D8D8D8;
     font-size: 18px;
+    font-family: 'Avenir-Book',sans-serif;
 }
 
 .footer-link ul li {
@@ -636,6 +685,7 @@ footer {
 .left-copy ul li a {
     color: #fff;
     font-size: 14px;
+    font-family: 'Avenir-Book',sans-serif;
 }
 
 .left-copy p {
@@ -643,6 +693,7 @@ footer {
     color: #fff;
     padding-top: 15px;
     margin: 0;
+    font-family: 'Avenir-Book',sans-serif;
 }
 
 .footer-social-icon ul li {
@@ -687,6 +738,7 @@ footer {
     line-height: 40px;
     margin: 0;
     margin-bottom: 5px;
+     font-family: 'Avenir-Black',sans-serif;
 }
 .detail-banner-text p {
     color: #454fff;
@@ -696,11 +748,14 @@ footer {
 
 
 /* micro-course-banner */
-
+.mirco-hr{
+    margin-top: 100px;
+padding-bottom: 90px;
+border-top: 1px solid #e0e0e0;
+}
 .micro-course-banner {
     position: relative;
-    margin-top: 90px;
-    border-top: 2px solid #e0e0e0;
+   
 }
 .micro-course-banner img {
     width: 100%;
@@ -715,6 +770,7 @@ footer {
     color: #fff;
     font-size: 32px;
     line-height: 43px;
+    font-family: 'Avenir-Black',sans-serif;
 }
 
 /* slider  */
