@@ -84,7 +84,7 @@
                 </div>
                 <div class="col-md-6 col-lg-5">
                     <!-- skill wrapper  -->
-                    <div class="banner-skill-box">
+                    <div class="banner-skill-box mx-lg-3 mx-0 ">
                         <!-- skill top  -->
                         <div class="banner-skill-top">
                             <div class="left-title">
@@ -404,7 +404,10 @@
         })
     });
 
-
+ $('.product-mbr-btn').click(function () {
+      $(this).toggleClass('active')
+      $('.product-left').fadeToggle();
+    })
 
 
     var menu = document.querySelector(".menu-icon");

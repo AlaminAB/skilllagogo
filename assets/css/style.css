@@ -334,7 +334,7 @@ section.banner-section {
    background: -o-linear-gradient(top, #4650FF, #6B85FF, #76A4D7, #B6D4FF);
    background: -webkit-gradient(linear, left top, left bottom, from(#4650FF), color-stop(#6B85FF), color-stop(#76A4D7), to(#B6D4FF));
    background: linear-gradient(180deg, #4650FF, #6B85FF, #76A4D7, #B6D4FF);
-    padding: 30px 47px;
+    padding: 30px 30px;
     border-radius: 5px;
 }
 
@@ -431,7 +431,7 @@ a.skl-button:hover {
     text-align: center;
 }
 .single-btn {
-    display: inline-block;
+    display: block;
     border: solid 1px #4751ff;
     padding: 20px 65px;
     border-radius: 60px;

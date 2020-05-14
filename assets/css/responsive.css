@@ -101,7 +101,7 @@ form.serach-form button {
         margin-left: 15px;
     }
 .banner-text h1 {
-    font-size: 39px;
+    font-size: 37px;
     line-height: 50px;
     padding-bottom: 5px;
 }
@@ -144,8 +144,8 @@ a.skl-button {
 .all-button-row {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto 20px auto;
-    grid-template-columns: auto auto;
+    -ms-grid-columns: 1fr 20px 1fr;
+        grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 .navbar-nav .dropdown-menu {
@@ -263,6 +263,9 @@ section.banner-section {
     display: block;
     padding-top: 55px;
 }
+.single-btn {
+    display: block;
+    }
 .slingle-wrp {
     text-align: center;
     padding-bottom: 20px;
@@ -368,6 +371,6 @@ form.serach-form i {
     max-width: 120px;
 }
 .more-btn {
-    padding: 12px 100px;
+    padding: 12px 80px;
     }
 }
