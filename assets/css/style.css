@@ -5,18 +5,31 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); */
 
 @font-face {
+font-family: "Avenir-Book";
+src: url("../fonts/AvenirLTStd-Book.woff");
+src: url("../fonts/AvenirLTStd-Book.woff") format("woff"),
+
+}
+
+@font-face {
+font-family: "Avenir-Medium";
+src: url("../fonts/AvenirLTStd-Medium.woff");
+src: url("../fonts/AvenirLTStd-Medium.woff") format("woff"),
+
+}
+@font-face {
 font-family: "Avenir-Black";
 src: url("../fonts/Avenir-Black.woff");
 src: url("../fonts/Avenir-Black.woff") format("woff"),
 
 }
-@import url('http://db.onlinewebfonts.com/c/331ec49c0d78e469c42c1d814dd45838?family=Avenir+Book');
+/* @import url('http://db.onlinewebfonts.com/c/331ec49c0d78e469c42c1d814dd45838?family=Avenir+Book'); */
 
 
 /************** Default CSS **************/
 
 body {
-    font-family: 'Avenir-Black', sans-serif;
+    font-family: 'Avenir-Medium', sans-serif;
     color: #AAA9AB;
     font-weight: 400;
     font-style: normal;
@@ -62,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-     font-family: 'Avenir-Black', sans-serif;
+      font-family: 'Avenir-Medium', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #2B292D;
@@ -72,7 +85,6 @@ h6 {
 
 h1 {
     font-size: 40px;
-    font-weight: 700;
 }
 
 h2 {
@@ -97,7 +109,7 @@ h6 {
 }
 
 p {
-     font-family: 'Avenir-Black', sans-serif;
+     font-family: 'Avenir-Medium', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
@@ -105,7 +117,7 @@ p {
 }
 
 a {
-      font-family: 'Avenir-Black', sans-serif;
+      font-family: 'Avenir-Medium', sans-serif;
     font-size: 14px;
     font-weight: 400;
     -webkit-transition: all .35s;
@@ -133,10 +145,10 @@ header {
     padding: 25px 0px;
 }
 ul.navbar-nav a {
-    color: #2b292d;
+    color: #2B292D;
     font-size: 18px;
     line-height: 25px;
-    font-family: "Avenir Book";
+    font-family: "Avenir-Book";
 }
 
 .dropdown-toggle::after {
@@ -193,6 +205,7 @@ form.serach-form button {
 .serach-form input::placeholder{
 color: #adadae;
 font-size: 18px;
+font-family: 'Avenir-Medium';
 }
 .navbar-nav.ml-auto li {
     padding: 0px 10px;
@@ -208,6 +221,7 @@ font-size: 18px;
     text-align: center;
     cursor: pointer;
      box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+     font-family: 'Avenir-Black'
 }
 a.nav-btn:hover {
     color: #444eff !important;
@@ -301,6 +315,7 @@ section.banner-section {
     color: #fff;
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Avenir-Black',sans-serif;
 }
 
 .right-logo img {
@@ -345,6 +360,7 @@ a.skl-button {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    font-family: 'Avenir-Black',sans-serif;
 }
 a.skl-button:hover {
     background: #444EFF;
@@ -360,6 +376,7 @@ a.skl-button:hover {
     line-height: 90px;
     color: #2B292D;
     padding-bottom: 10px;
+    font-family: 'Avenir-Medium';
 }
 
 .banner-text p {
@@ -387,6 +404,7 @@ a.skl-button:hover {
     font-size: 18px;
     line-height: 24px;
     color: #D3D3D3;
+    font-family: 'Avenir-Black',sans-serif;
 
 }
 .all-button {
