@@ -408,7 +408,10 @@
       $(this).toggleClass('active')
       $('.product-left').fadeToggle();
     })
-
+  $('form.serach-form input').click(function() {
+        $('form.serach-form button').css('left', '10px');
+        $(this).css('padding-left', '45px')
+    })
 
     var menu = document.querySelector(".menu-icon");
     var icon1 = document.querySelector(".first-icon");
