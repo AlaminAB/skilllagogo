@@ -1,5 +1,4 @@
 
-
 /* ***Responsive media query*** */
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -176,9 +175,9 @@ input.search-button {
     width: 180px;
 }
 
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
     right: 41%;
-}
+} */
 .skill-button {
     padding-top: 15px;
     padding-bottom: 10px;
@@ -224,8 +223,12 @@ a.skl-button {
 
 /* prebook  */
 .prebook-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 20px;
 }
 .prebooking-fail {
@@ -386,16 +389,20 @@ form.serach-form i {
 .banner-skill-box {
     max-width: 100%;
 }
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
     right: 41%;
-}
+} */
 .footer-link {
     padding-top: 30px;
 }
 /* prebook  */
 .prebook-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 20px;
 }
 .prebooking-fail {
@@ -501,11 +508,15 @@ form.serach-form i {
         padding-bottom: 10px;
     }
     .payment-card-wrap {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         padding-bottom: 10px;
     }
 .row.mapand-card {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
 }
 .about-partner {
     margin-left: 0;
@@ -527,22 +538,30 @@ form.serach-form i {
     padding-top: 40px;
 }
 .skills-acquried-wrap {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .skills-acquried-wrap .skills-acquried-card {
     margin-left: 15px;
-    margin-bottom: 20px;
 }
 .skills-acquried-wrap .skills-acquried-card {
-    box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
+    -webkit-box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
+            box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
     margin-left: 30px;
 }
 .calander-wrap{
     width: 100%;
 }
+.main-map-img {
+    margin-left: 0;
+}
+.main-map-img img {
+    width: 100%;
+    min-height: 130px;
+}
 }
 
-
+ 
 
 
 
@@ -561,9 +580,9 @@ form.serach-form i {
     .single-sort:nth-child(even){
         margin-left: 15px;
     }
-    .dropdown-toggle::after {
+/*     .dropdown-toggle::after {
     right: 39%;
-}
+} */
 form.serach-form i {
     left: 33%;
 }
@@ -720,9 +739,9 @@ a.skl-button {
 form.serach-form i {
     left: 19%;
 }
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
     right: 29%;
-}
+} */
 .detail-banner-text h2 {
     font-size: 19px;
     line-height: 26px;
@@ -830,7 +849,8 @@ span.prebook-radio-style {
         width: 100%;
         height: auto;
         max-height: 300px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
     .pc-img {
         margin-right: 0;
@@ -852,6 +872,8 @@ span.prebook-radio-style {
         margin-top: 0;
         margin-right: 0;
         margin-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .payment-card-wrap .price-wrap p {

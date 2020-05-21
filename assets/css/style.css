@@ -1,6 +1,5 @@
 
 /* Google Fonts */
-
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); */
 
 @font-face {
@@ -162,11 +161,10 @@ ul.navbar-nav a {
     content: "\f078";
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
-    font-size: 12px;
-    right: -2px;
-    top: 11px;
+    font-size: 13px;
+    top: 10px;
+    margin-left: 10px;
 }
-
 input.search-button {
     display: inline-block;
     padding: 11px 10px;
@@ -332,6 +330,8 @@ section.banner-section {
 
 .banner-skill-box {
     background: rgb(70,79,255);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(70,79,255,1)), color-stop(99%, rgba(135,174,254,1)), to(rgba(140,177,255,1)));
+background: -o-linear-gradient(top, rgba(70,79,255,1) 1%, rgba(135,174,254,1) 99%, rgba(140,177,255,1) 100%);
 background: linear-gradient(180deg, rgba(70,79,255,1) 1%, rgba(135,174,254,1) 99%, rgba(140,177,255,1) 100%); 
     padding: 30px 30px;
     border-radius: 5px;
@@ -872,13 +872,13 @@ border-top: 1px solid #e0e0e0;
 
 /* pre book sucess  */
 .book-summary-heading h2 {
-	font-size: 34px;
-	line-height: 40px;
-	color: rgba(0,0,0,0.87);
-	 font-family: 'Avenir-Black',sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    color: rgba(0,0,0,0.87);
+     font-family: 'Avenir-Black',sans-serif;
 }
 .pre-book-summary {
-	padding-top: 35px;
+    padding-top: 35px;
 }
 .pre-book-breadcumb ul li {
   display: inline-block;
@@ -896,77 +896,83 @@ border-top: 1px solid #e0e0e0;
 }
 
 .bread-font-circle {
-	position: relative;
-	padding-left: 15px;
+    position: relative;
+    padding-left: 15px;
 }
 .pre-book-breadcumb ul li {
-	display: inline-block;
-	font-size: 18px;
-	line-height: 24px;
-	color: #000;
-	font-family: 'Avenir-Book',sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-family: 'Avenir-Book',sans-serif;
 }
 .bread-font-circle::after {
-	position: absolute;
-	left: 0;
-	top: 50%;
-	content: "";
-	width: 8px;
-	height: 8px;
-	background: #000;
-	border-radius: 50%;
-	transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 .course-slider.prebookslider {
-	margin-top: 20px;
-	margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 /* prebooking succes box  */
 .prebooking-success {
-	border: solid 1px rgba(0,0,0,0.12);
-	background: #f3f3f8;
-	border-radius: 5px;
-	display: flex;
-	padding: 35px 25px;
+    border: solid 1px rgba(0,0,0,0.12);
+    background: #f3f3f8;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 35px 25px;
 }
 .success-img {
-	padding-right: 25px;
+    padding-right: 25px;
 }
 .prebooking-success-messages p {
-	font-size: 16px;
-	line-height: 24px;
-	margin: 0;
-	color: rgba(0,0,0,0.87);
-	font-family: 'Avenir-Book',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: rgba(0,0,0,0.87);
+    font-family: 'Avenir-Book',sans-serif;
 }
 .success-img img {
-	max-width: 25px;
+    max-width: 25px;
 }
 .prebooking-success-wrap {
-	padding: 40px 0;
+    padding: 40px 0;
 }
 
 /* more demand section  */
 .more-demand-section {
  background: rgb(70,79,255);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgba(70,79,255,1)), color-stop(98%, rgba(135,172,254,1)), color-stop(99%, rgba(133,170,255,1)));
+background: -o-linear-gradient(top, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98%, rgba(133,170,255,1) 99%);
 background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98%, rgba(133,170,255,1) 99%); 
-	padding-top: 63px;
-	padding-bottom: 45px;
-	text-align: center;
-	border-radius: 5px;
-	margin-bottom: 50px;
+    padding-top: 63px;
+    padding-bottom: 45px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 50px;
 }
 .more-demand-section h2 {
-	font-size: 32px;
-	color: #fff;
-	line-height: 38px;
-	font-family: 'Avenir-Black',sans-serif;
+    font-size: 32px;
+    color: #fff;
+    line-height: 38px;
+    font-family: 'Avenir-Black',sans-serif;
 }
 .more-demand-section h3 {
-	font-size: 32px;
-	line-height: 38px;
-	color: #fff;
-	  font-family: 'Avenir-Medium', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+      font-family: 'Avenir-Medium', sans-serif;
 }
 
 
@@ -992,6 +998,8 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
   height: 100%;
   left: 0;
   top: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#0C16BE));
+  background: -o-linear-gradient(top, #00000000, #0C16BE);
   background: linear-gradient(180deg, #00000000, #0C16BE);
 }
 .skill-card-title {
@@ -1005,11 +1013,17 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
 /* prebook fail  */
 
 .prebook-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .prebooking-fail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: solid 1px rgba(0,0,0,0.12);
   background: rgba(206,33,33,0.2);
   border-radius: 5px;
@@ -1017,11 +1031,11 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
   padding-left: 25px;
 }
 .prebooking-fail-messages p {
-	font-size: 16px;
-	line-height: 24px;
-	margin: 0;
-	color: rgba(0,0,0,0.87);
-	font-family: 'Avenir-Book',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: rgba(0,0,0,0.87);
+    font-family: 'Avenir-Book',sans-serif;
 }
 .prebook-fail-img img {
   max-width: 26px;
@@ -1041,23 +1055,22 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
   text-align: center;
   line-height: 13px;
   -webkit-transition:  .35s ;
-     -moz-transition:  .35s ;
-      -ms-transition:  .35s ;
        -o-transition:  .35s ;
           transition:  .35s ;
-           box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+           -webkit-box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+                   box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
            font-family: 'Avenir-Black',sans-serif;
 }
 .prebook-fail-btn a:hover {
-	background: #fff;
-	color: #444eff;
+    background: #fff;
+    color: #444eff;
 
 }
 .prebook-fail-btn {
-	margin-right: 65px;
+    margin-right: 65px;
 }
 .prebooking-fail-wrap {
-	padding: 50px 0px;
+    padding: 50px 0px;
 }
 
 /* ODW page  */
@@ -1081,7 +1094,8 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
 .pre-book-card {
     margin:  auto;
     max-width: 510px;
-      box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
+      -webkit-box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
+              box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
       border-radius: 5px;
       overflow: hidden;
       margin-bottom: 90px;
@@ -1104,7 +1118,9 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
     bottom: 30px;
     left: 50%;
     width: 100%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     padding: 0px 30px;
 }
 .pre-book-info h4 {
@@ -1249,13 +1265,16 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
     display: block;
     padding: 12px 0px;
     font-size: 18px;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
     background: #444eff;
     color: #fff;
     line-height: 22px;
     font-family: 'Avenir-Black',sans-serif;
     border-radius: 5px;
      border: 1px solid #444eff;
+     -webkit-transition: 0.8s;
+     -o-transition: 0.8s;
      transition: 0.8s;
      outline: none;
      width: 100%;
@@ -1328,8 +1347,12 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
     position: fixed;
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     z-index: 999;
     top: 0;
     left: 0;
@@ -1354,9 +1377,15 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
     width: 100%;
     height: auto;
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
 }
 
@@ -1494,6 +1523,8 @@ td.fc-day-top span {
 
 
 .map-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 23px;
 }
@@ -1614,6 +1645,8 @@ td.fc-day-top span {
 }
 
 .skills-acquried-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -1622,11 +1655,19 @@ td.fc-day-top span {
     width: 140px;
     height: 100px;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-content: center;
-    align-items: center;
-    box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07), 0px 13px 18px -8px rgba(0,0,0,0.15);
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07), 0px 13px 18px -8px rgba(0,0,0,0.15);
+            box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07), 0px 13px 18px -8px rgba(0,0,0,0.15);
     margin-left: 30px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 }
 .skills-acquried-wrap .skills-acquried-card p {
     margin: 0;
@@ -1639,14 +1680,15 @@ td.fc-day-top span {
     width: 100%;
 }
 .skills-acquried-card:first-child {
-    left: ;
     margin-left: 0px;
 }
 
 .skills-acquried-card:first-child {
     margin-left: 0px;
 }
-
+.skills-acquried-card {
+    margin-top: 20px;
+}
 .acquried-des h6 {
     color: #484848;
     margin: 0;
@@ -1731,8 +1773,12 @@ input.cal-checkbx:checked+label span.radio-style:after {
 }
 
 .signle-shedule {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-bottom: 1px solid #E0E0E0;
     padding: 15px 0;
 }
@@ -1820,9 +1866,15 @@ input.cal-checkbx:checked+label.cal-lab {
 }
 
 .card-widg {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 0 17px;
@@ -1853,8 +1905,12 @@ a.wishlist i {
     background-position: center;
     position: relative;
     padding-left: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     padding-bottom: 45px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -2000,6 +2056,8 @@ span.inp-icn {
 }
 
 .double-inp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -2090,6 +2148,34 @@ span.inp-icn {
     width: 100%;
 }
 
+.single-pd-inp input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Avenir-Medium";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.single-pd-inp input::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Avenir-Medium";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.single-pd-inp input:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Avenir-Medium";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.single-pd-inp input::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Avenir-Medium";
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .single-pd-inp input::placeholder {
     color: rgba(0, 0, 0, 0.87);
     font-family: "Avenir-Medium";
@@ -2118,8 +2204,12 @@ span.inp-icn {
 }
 
 .payment-card-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .pc-img img {
@@ -2208,7 +2298,8 @@ span.inp-icn {
 }
 
 .pc-img {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
 }
 
 .dropdwon-all-skill{
