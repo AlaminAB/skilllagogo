@@ -13,7 +13,14 @@
         margin-left: 60px;
     }
 }
-
+@media (min-width: 992px){
+    .p-left-80{
+        padding-left: 85px;
+    }
+      .p-left-118{
+        padding-left: 118px;
+    }
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .product-left {
@@ -64,7 +71,38 @@ form.serach-form button {
     right: -18px;
 
 }
+.prebook-fail-btn {
+    margin-right: 25px;
 }
+.navbar-brand img {
+    width: 100%;
+    max-width: 150px;
+}
+/* calander */
+    .booking-card span.radio-style {
+        left: 5px;
+        top: 0;
+    }
+
+    .booking-card .shedule-left .cal-lab {
+        padding-left: 35px;
+    }
+    .payment-card-wrap .price-wrap {
+        margin-left: 80px;
+    }
+    a.skl-button.cls-pre {
+    padding: 13px 5px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.skill-dropdwon-header p {
+    font-size: 16px;
+}
+}
+
+
+
+
 
 @media (max-width: 992px){
     .product-left{
@@ -94,6 +132,13 @@ form.serach-form button {
         display: inline-block;
     }
 }
+
+
+
+
+
+
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -173,7 +218,118 @@ a.skl-button {
     font-size: 25px;
     line-height: 32px;
 }
+
+/* prebook  */
+.prebook-left {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
+.prebooking-fail {
+    display: block;
+}
+.prebook-fail-btn {
+    margin-right: 0;
+    text-align: center;
+}
+
+.pre-book-card-body {
+    padding: 30px 30px;
+}
+.pre-book-info h4 {
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+}
+.pre-book-info {
+    padding: 0px 20px;
+}
+
+
+    /* calander */
+    .booking-banner {
+        min-height: 500px;
+        padding-left: 30px;
+    }
+
+    .booking-card span.radio-style {
+        left: 0;
+        top: 0;
+    }
+
+    .booking-card .shedule-left .cal-lab {
+        padding-left: 26px;
+        font-size: 14px;
+    }
+
+    .booking-card {
+        margin-top: 10px;
+    }
+
+    .booking-card .signle-shedule:first-child {
+        padding-top: 0;
+    }
+
+    .price-wrap {
+        margin-top: 10px;
+    }
+
+    .price-wrap p {
+        margin-bottom: 0px;
+    }
+    .payment-card-wrap .price-wrap {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .pc-details {
+        width: 250px;
+    }
+    .pc-details h4 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .about-the-coursetitle {
+    padding-left: 0;
+}
+.aboutthe-desc {
+    padding-top: 27px;
+    padding-bottom: 8px;
+    padding-left: 0;
+}
+.about-the-coursetitle h4 span {
+    margin-right: 5px;
+}
+.about-the-coursetitle h4 {
+    letter-spacing: -0.2px;
+}
+.banner-skill-box.ml-auto.aboutskill {
+    padding: 30px 20px;
+}
+.skill-dropdwon-header p {
+
+    font-size: 15px;
+}
+a.skl-button.cls-pre {
+    padding: 13px 0px;
+    font-size: 13px;
+}
+.about-partner {
+    margin-left: 0;
+}
+.skills-acquried {
+    margin-left: 0;
+}
+.suggestion-heading {
+    padding-top: 36px;
+}
+}
+
+
+
+
+
+
+
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
@@ -224,13 +380,174 @@ form.serach-form i {
     font-size: 18px;
     left: 38%;
 }
+.banner-skill-box {
+    max-width: 100%;
+}
 .dropdown-toggle::after {
     right: 41%;
 }
 .footer-link {
     padding-top: 30px;
 }
+/* prebook  */
+.prebook-left {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
+.prebooking-fail {
+    display: block;
+}
+.prebook-fail-btn {
+    margin-right: 0;
+    text-align: center;
+}
+.banner-skill-box.mx-lg-3.mx-0.odw-generic {
+    max-width: 100%;
+}
+.navbar {
+
+    padding: .5rem 0px !important;
+}
+.navbar-toggler {
+    padding: 0;
+}
+
+
+
+    /*calander*/
+    .cal-tabbox p {
+        line-height: 20px !important;
+    }
+
+    .calender-footer .nice-select {
+        width: 150px;
+    }
+
+    .prebook_btn {
+        min-width: 90px;
+    }
+
+    td.fc-day-top {
+        text-align: center;
+        text-align: center;
+    }
+
+    td.fc-day-top span {
+        float: none;
+        display: inline-block;
+    }
+
+    .cal-tabbox {
+        max-width: 75%;
+        left: 5px
+    }
+
+    .calander-wrap {
+        padding: 30px 10px;
+        padding-top: 25px;
+    }
+
+    .shedule-right .cal-tabbox {
+        max-width: 100px;
+    }
+
+    .shedule-left .cal-lab {
+        padding-left: 40px;
+    }
+
+    .shedule-left span.radio-style {
+        left: 10px;
+    }
+
+    .signle-shedule p,
+    .signle-shedule label {
+        font-size: 14px;
+    }
+
+    .fc-dayGrid-view .fc-body .fc-row {
+        min-height: 75px;
+    }
+
+    .booking-banner {
+        min-height: 400px;
+    }
+
+    .booking-banner {
+        padding-left: 20px;
+    }
+
+    .booking-baner-content h4 {
+        font-size: 20px;
+    }
+
+    .booking-baner-content p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .payment-sel-det {
+        padding-left: 0;
+    }
+
+    .single-pd-inp {
+        margin-bottom: 20px;
+    }
+
+    .payment-det-wrap {
+        padding-bottom: 10px;
+    }
+    .payment-card-wrap {
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+.row.mapand-card {
+    flex-direction: column-reverse;
+}
+.about-partner {
+    margin-left: 0;
+}
+    .about-the-coursetitle {
+    padding-left: 0;
+}
+.skills-acquried {
+    margin-left: 0;
+}
+
+.aboutthe-desc {
+    padding-left: 0;
+}
+.suggestion-heading {
+    margin-left: 0;
+}
+.map-section {
+    padding-top: 40px;
+}
+.skills-acquried-wrap {
+    flex-wrap: wrap;
+}
+.skills-acquried-wrap .skills-acquried-card {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.skills-acquried-wrap .skills-acquried-card {
+    box-shadow: 0px 11px 55px 10px rgba(0,0,0,0.07);
+    margin-left: 30px;
+}
+.calander-wrap{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -290,12 +607,56 @@ section.banner-section {
 .footer-logo {
     text-align: center;
 }
+
+    /*calander*/
+    .cal-tabbox p {
+        line-height: 1 !important;
+    }
+
+    .cal-tabbox {
+        max-width: 70px;
+    }
+
+    .shedule-right .cal-tabbox {
+        max-width: 200px;
+    }
+
+    .shedule-left span.radio-style {
+        top: -2px;
+    }
+
+    .cal-tabbox.bbc {
+        max-width: 320px;
+    }
+
+    .paybtn {
+        width: 100%;
+    }
+    .pc-note {
+        margin-top: 25px;
+    }
+    .cost-more p.send-cnf {
+        margin-top: 60px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .skills-acquried-wrap .skills-acquried-card {
+    margin-left: 15px;
 }
+}
+
+
+
+
+
+
+
+
 
 @media (min-width: 318px) and (max-width: 575.98px) { 
 .all-button-row {
     display: block;
-    padding-top: 55px;
+    padding-top: 0px;
 }
 .slingle-wrp {
     text-align: center;
@@ -317,7 +678,7 @@ section.banner-section {
     font-weight: 400;
 }
 .banner-skill-box {
-    padding: 30px 30px;
+    padding: 30px 20px;
     border-radius: 5px;
 }
 .skill-button {
@@ -331,6 +692,14 @@ a.skl-button {
     border: 1px solid #fff;
     line-height: 20px;
 
+}
+.left-title span {
+    font-size: 14px;
+    line-height: 22px;
+}
+.right-logo img {
+    width: 100%;
+    max-width: 90px;
 }
 .single-btn {
     padding: 20px 50px;
@@ -373,4 +742,144 @@ form.serach-form i {
 .more-btn {
     padding: 12px 80px;
     }
+
+    /* prebook */
+    .prebook-fail-btn a {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+.prebooking-fail {
+    padding: 20px 15px;
+}
+.pre-book-summary {
+    padding-top: 20px;
+}
+.book-summary-heading h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.more-demand-section h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.more-demand-section h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.skill-card-title h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+}
+.skill-card-title {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    z-index: 99999;
+    left: 18px;
+}
+.pre-book-card-body {
+    padding: 30px 15px;
+}
+span.prebook-radio-style {
+    margin-right: 12px;
+}
+.pre-book-info {
+    padding: 0px 15px;
+}
+.pre-book-info h4 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.banner-text.diff-skill-here h2 {
+    font-size: 30px;
+}
+
+    /*calander*/
+    td.fc-day.fc-widget-content::before {
+        width: 12px;
+        height: 12px;
+        left: 5px;
+        top: 6px;
+    }
+
+    td.fc-day.fc-widget-content.active::after {
+        left: 9px;
+        top: 7px;
+        font-size: 10px;
+    }
+
+    td.fc-day-top {
+        padding-top: 20px;
+    }
+
+    .cal-tabbox {
+        bottom: 5px;
+        left: 2px;
+    }
+
+    td.fc-day-top {
+        padding-right: 4px;
+    }
+    .pc-img img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+    }
+    .pc-img {
+        margin-right: 0;
+    }
+    .pc-details {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .pc-details h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .pc-note {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .payment-card-wrap .price-wrap {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+    }
+    .payment-card-wrap .price-wrap p {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .pc-img {
+        margin-right: 0;
+        width: 100%;
+    }
+.about-the-coursetitle h4 span:last-child {
+    margin-right: 0px;
+    display: block;
+    margin-top: 15px;
+}
+}
+
+@media (min-width: 318px) and (max-width: 390.98px) { 
+.skill-dropdwon-header p {
+    font-size: 15px;
+}
+a.skl-button.cls-pre {
+    padding: 12px 4px;
+    font-size: 13px;
+}
+
+.skills-acquried-wrap .skills-acquried-card {
+    margin-left: 15px;
+}
+.skills-acquried-wrap .skills-acquried-card {
+    width: 120px;
+}
 }
