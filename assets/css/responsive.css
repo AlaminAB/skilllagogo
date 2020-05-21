@@ -4,7 +4,10 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1500px){ 
-    
+    .calander-slider-page .col-12{
+            padding-right: 10px;
+    padding-left: 10px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
