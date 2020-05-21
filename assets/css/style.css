@@ -1820,8 +1820,11 @@ input.cal-checkbx:checked+label.cal-lab {
     max-width: 413px;
     margin: 0 auto;
     margin-top: 10px;
+    border: 1px solid #444eff;
+    border-radius: 5px;
+    padding: 0 22px;
+    margin-top: 0;
 }
-
 .select-dbtn {
     width: 220px;
     background-color: #EEF5FF !important;
@@ -1855,10 +1858,12 @@ input.cal-checkbx:checked+label.cal-lab {
     font-size: 16px;
     color: #2B292D;
     margin-bottom: 10px;
+    font-family: "Avenir-Black", sans-serif;
 }
 
 .price-wrap h3 {
     font-size: 36px;
+     font-family: "Avenir-Black", sans-serif;
 }
 
 .prebok-btn {
@@ -2074,9 +2079,23 @@ span.inp-icn {
 }
 
 .total-cost {
-    margin-top: 40px;
+    padding-top: 30px;
+    border: 1px solid #444eff;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.total-cost-notice {
+    text-align: center;
+    padding-top: 25px;
 }
 
+.total-cost-notice p {
+    color: #2b292d;
+    font-family: "Avenir-Black", sans-serif;
+}
+.payment-sel-det input:focus {
+    border: 1px solid #444eff;
+}
 .total-cost h2 {
     color: #444eff;
     font-size: 16px;
@@ -2093,7 +2112,7 @@ span.inp-icn {
 
 .cost-more p {
     font-size: 12px;
-    font-weight: 400;
+        color: #2b292d;
     line-height: 16px;
 }
 
@@ -2194,6 +2213,7 @@ span.inp-icn {
 
 .payment-info-wrap {
     padding: 25px 0;
+    padding-bottom: 50px;
 }
 
 .payment-card-wrap {
