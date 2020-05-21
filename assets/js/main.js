@@ -1,4 +1,5 @@
-   $('form.serach-form input').click(function() {
+    $(document).ready(function() {
+       $('form.serach-form input').click(function() {
         $('form.serach-form button').css('left', '10px');
         $(this).css('padding-left', '45px')
     })
@@ -13,4 +14,5 @@
     })
       
 
+})
      
