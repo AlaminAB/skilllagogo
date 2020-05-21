@@ -1,3 +1,9 @@
+   $('form.serach-form input').click(function() {
+        $('form.serach-form button').css('left', '10px');
+        $(this).css('padding-left', '45px')
+    })
+
+
     // jtoggle menu 
 
     var menu = document.querySelector(".menu-icon");
@@ -10,7 +16,4 @@
         icon1.classList.toggle("icon");
         icon3.classList.toggle("icons");
     })
-      $('form.serach-form input').click(function() {
-        $('form.serach-form button').css('left', '10px');
-        $(this).css('padding-left', '45px')
-    })
+      
