@@ -1904,7 +1904,7 @@ a.wishlist i {
 
 .booking-banner {
     background-image: url(../img/detail-banner.png);
-    min-height: 600px;
+    min-height: 560px;
     max-width: 600px;
     background-size: cover;
     background-position: center;
