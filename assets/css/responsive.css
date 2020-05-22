@@ -1,20 +1,23 @@
 
 /* ***Responsive media query*** */
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1500px){ 
-    .calander-slider-page .col-12{
-            padding-right: 10px;
-    padding-left: 10px;
-    }
+
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1200px) { 
     .single-sort{
         margin-left: 60px;
     }
+        .calander-slider-page .col-12{
+            padding-right: 10px !important;
+    padding-left: 10px !important;
+    }
 }
+
+
 @media (min-width: 992px){
     .p-left-80{
         padding-left: 85px;
@@ -99,6 +102,12 @@ form.serach-form button {
 }
 .skill-dropdwon-header p {
     font-size: 16px;
+}
+.booking-card.calender-card .signle-shedule {
+    padding: 18px 0;
+}
+.booking-card.calender-card .signle-shedule label {
+    font-size: 15px;
 }
 }
 
@@ -268,10 +277,6 @@ a.skl-button {
         font-size: 14px;
     }
 
-    .booking-card {
-        margin-top: 10px;
-    }
-
     .booking-card .signle-shedule:first-child {
         padding-top: 0;
     }
@@ -294,6 +299,16 @@ a.skl-button {
         font-size: 20px;
         line-height: 27px;
     }
+
+.booking-card.calender-card .shedule-left .cal-lab {
+font-size: 14px;
+padding-left: 25px;
+font-size: 13px;
+}
+.booking-card.calender-card .signle-shedule {
+    padding: 12px 0px;
+}
+
     .about-the-coursetitle {
     padding-left: 0;
 }
@@ -330,7 +345,7 @@ a.skl-button.cls-pre {
 }
 .booking-card {
     padding: 0 10px;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 }
 
@@ -566,6 +581,24 @@ form.serach-form i {
 .booking-card {
     margin-top: 30px;
 }
+.total-cost {
+    margin-top: 30px;
+}
+.booking-card.calender-card .shedule-left span.radio-style {
+    top: 0px;
+}
+.banner-text.diff-skill-here h2 {
+padding-bottom: 10px;
+}
+section.banner-section {
+padding-top: 30px;
+}
+.banner-text.diff-skill-here {
+    margin-bottom: 30px;
+}
+.skill-card-empty-text p {
+letter-spacing: 0;
+}
 }
 
  
@@ -672,6 +705,13 @@ section.banner-section {
     .skills-acquried-wrap .skills-acquried-card {
     margin-left: 15px;
 }
+.booking-card.calender-card .shedule-left span.radio-style {
+left: 30px;
+}
+.booking-card.calender-card .shedule-left .cal-lab {
+padding-left: 70px;
+}
+
 }
 
 
@@ -897,6 +937,12 @@ span.prebook-radio-style {
     display: block;
     margin-top: 15px;
 }
+.booking-card.calender-card  .shedule-left .cal-lab {
+padding-left: 60px;
+}
+.booking-card.calender-card  .shedule-left span.radio-style {
+left: 20px;
+}
 }
 
 @media (min-width: 318px) and (max-width: 390.98px) { 
@@ -914,4 +960,17 @@ a.skl-button.cls-pre {
 .skills-acquried-wrap .skills-acquried-card {
     width: 120px;
 }
+
+
+.booking-card.calender-card .signle-shedule p, .signle-shedule label {
+font-size: 12px;
 }
+.booking-card.calender-card .shedule-left .cal-lab {
+padding-left: 30px;
+}
+.booking-card.calender-card .shedule-left span.radio-style {
+left: 5px;
+}
+
+}
+
