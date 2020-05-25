@@ -1497,9 +1497,11 @@ td.fc-day-top span {
     width: 280px;
     padding-left: 40px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 0px;
 }
-
+.calender-footer.first-calander-footer .nice-select{
+    margin-left: 40px; 
+}
 .calender-footer {
     margin-top: 30px;
 }

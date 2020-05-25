@@ -488,7 +488,7 @@ form.serach-form i {
     }
 
     .shedule-right .cal-tabbox {
-        max-width: 100px;
+        max-width: 120px;
     }
 
     .shedule-left .cal-lab {
@@ -612,6 +612,9 @@ letter-spacing: 0;
 .price-that-box {
     margin-top: 30px;
 }
+.calender-footer.first-calander-footer .nice-select {
+    margin-left: 12px;
+}
 }
 
  
@@ -727,6 +730,7 @@ padding-left: 90px;
 .pay-btn-wrap.text-center {
     margin: 0px 1px;
 }
+
 }
 
 
@@ -891,7 +895,7 @@ span.prebook-radio-style {
 
     td.fc-day.fc-widget-content.active::after {
         left: 9px;
-        top: 7px;
+        top: 8px;
         font-size: 10px;
     }
 
