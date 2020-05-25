@@ -401,7 +401,7 @@ a.skl-button:hover {
     border:1px solid #fff;
 }
 .skill-button {
-    padding-top: 65px;
+    padding-top:40px;
     padding-bottom: 20px;
 }
 .banner-text h1 {
@@ -1221,6 +1221,7 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
 }
 .pre-book-card-body {
     padding: 30px 50px;
+    padding-bottom: 44px;
 }
 .prebook-ul li label {
     margin: 0;
@@ -1233,6 +1234,7 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
     border-bottom: 0px;
     font-size: 12px;
     line-height: 21px;
+    padding: 10px 0px;
     color: rgba(0,0,0,0.54);
     text-transform: capitalize;
     font-family: 'Avenir-Black',sans-serif;
@@ -1278,6 +1280,7 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
      transition: 0.8s;
      outline: none;
      width: 100%;
+         margin-top: 15px;
 }
 .prebook-button:hover {
     background: #fff;
@@ -1410,26 +1413,26 @@ td.fc-day.fc-widget-content {
 td.fc-day.fc-widget-content::before {
     position: absolute;
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 16px;
     background: transparent;
     z-index: 999;
     border-radius: 50%;
-    border: 2px solid #707070;
+    border: 3px solid #707070c9;
     left: 8px;
     top: 10px;
 }
 
 td.fc-day.fc-widget-content.active::before {
-    border: 2px solid #4651FF;
+    border: 3px solid #4651FF;
 }
 
 td.fc-day.fc-widget-content.active::after {
     position: absolute;
-    left: 13px;
-    top: 13px;
+    left: 12px;
+    top: 12px;
     content: '\f00c';
-    font-size: 14px;
+    font-size: 13px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: #4651FF;
@@ -1466,10 +1469,9 @@ td.fc-day-top span {
 
 .cal-tabbox p {
     font-size: 10px;
-    line-height: 20px;
     position: relative;
     z-index: 9;
-    line-height: 19px !important;
+    line-height: 20px !important;
     color: #4650FF;
     text-align: center;
 }
@@ -1495,6 +1497,7 @@ td.fc-day-top span {
     width: 280px;
     padding-left: 40px;
     position: relative;
+    margin-left: 40px;
 }
 
 .calender-footer {
@@ -1509,6 +1512,7 @@ td.fc-day-top span {
     font-size: 20px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    color: #747474;
 }
 
 .calender-footer .nice-select {
@@ -1748,13 +1752,17 @@ input.cal-checkbx:checked+label span.radio-style:after {
     cursor: pointer;
     display: inline-block;
     margin: 0;
+    color: #757575;
+    font-size: 13px;
 }
-
+.booking-card.calender-card .shedule-left .cal-lab{
+        padding-left: 96px;
+}
 .shedule-left span.radio-style {
     position: absolute;
     right: auto;
     left: 40px;
-    top: 2px;
+    top: 0px;
     width: 20px;
     height: 20px;
     border: 2px solid #767677;
@@ -1763,7 +1771,9 @@ input.cal-checkbx:checked+label span.radio-style:after {
     float: none;
     cursor: pointer;
 }
-
+.booking-card.calender-card .shedule-left span.radio-style {
+    left: 48px;
+}
 .shedule-left {
     width: 60%;
 }
@@ -1786,7 +1796,9 @@ input.cal-checkbx:checked+label span.radio-style:after {
 .sh-slide-title {
     border-bottom: 1px solid #E0E0E0;
 }
-
+.sh-slide-title h3 {
+    font-family: 'Avenir-Black', sans-seri;
+}
 .shedule-right .cal-tabbox {
     position: relative;
     left: 0;
@@ -1800,12 +1812,13 @@ input.cal-checkbx:checked+label span.radio-style:after {
 .shedule-right .cal-tabbox p {
     font-size: 12px;
     line-height: 33px !important;
+        font-family: 'Avenir-Book',sans-serif;
 }
 
 .signle-shedule p,
 .signle-shedule label {
     font-size: 16px;
-    font-family: 'Avenir-Book',sans-serif;
+    font-family: 'Avenir-Medium',sans-serif;
 }
 
 input.cal-checkbx:checked+label.cal-lab {
@@ -2219,8 +2232,7 @@ span.inp-icn {
 .payment-card-wrap {
     border: 1px solid #e0e0e0;
     border-radius: 6px;
-    padding: 30px 25px;
-    padding-top: 20px;
+    padding: 30px 24px;
 }
 
 .payment-card-wrap {
@@ -2230,6 +2242,7 @@ span.inp-icn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            justify-content: space-between;
 }
 
 .pc-img img {
@@ -2282,7 +2295,7 @@ span.inp-icn {
 
 .pc-note {
     width: 200px;
-    margin-left: auto;
+    margin-left: 25px;
 }
 
 .pc-note p {
@@ -2294,8 +2307,8 @@ span.inp-icn {
 
 .payment-card-wrap .price-wrap {
     margin-top: 0;
-    margin-right: 20px;
-    margin-left: 175px;
+    margin-right: 50px;
+    margin-left: 115px;
 }
 
 .dot-before {
@@ -2342,11 +2355,15 @@ span.inp-icn {
     font-size: 18px;
     margin-left: 10px;
 }
-.shedule-left p {
+.shedule-left p.text-center {
     font-family: 'Avenir-Black',sans-serif;
+    color: rgba(0,0,0,0.54);
+    font-size: 13px;
 }
-.shedule-right p {
+.shedule-right p.text-center {
     font-family: 'Avenir-Black',sans-serif;
+    color: rgba(0,0,0,0.54);
+    font-size: 13px;
 }
 
 
@@ -2379,4 +2396,16 @@ span.inp-icn {
    li.slick-active button {
     background-color: #212ac3;
     border: 2px solid #8589c2;
+}
+
+.payment-first-wrap {
+    display: flex;
+}
+
+.price-that-box {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #444eff;
+    padding: 23px 0px;
 }

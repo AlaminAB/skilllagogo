@@ -84,8 +84,8 @@ form.serach-form button {
     max-width: 150px;
 }
 /* calander */
-    .booking-card span.radio-style {
-        left: 5px;
+.booking-card.calender-card .shedule-left span.radio-style {
+        left: 16px;
         top: 0;
     }
 
@@ -93,7 +93,7 @@ form.serach-form button {
         padding-left: 35px;
     }
     .payment-card-wrap .price-wrap {
-        margin-left: 80px;
+        margin-left: 10px;
     }
     a.skl-button.cls-pre {
     padding: 13px 5px;
@@ -104,10 +104,14 @@ form.serach-form button {
     font-size: 16px;
 }
 .booking-card.calender-card .signle-shedule {
-    padding: 18px 0;
+    padding: 15px 0;
 }
 .booking-card.calender-card .signle-shedule label {
-    font-size: 15px;
+    font-size: 12px;
+
+}
+.booking-card.calender-card .shedule-left .cal-lab{
+    padding-left: 65px;
 }
 }
 
@@ -267,7 +271,7 @@ a.skl-button {
         padding-left: 30px;
     }
 
-    .booking-card span.radio-style {
+    .booking-card.calender-card .shedule-left span.radio-style {
         left: 0;
         top: 0;
     }
@@ -288,8 +292,14 @@ a.skl-button {
     .price-wrap p {
         margin-bottom: 0px;
     }
+    .pc-note {
+        margin-left: 15px;
+    }
+    .pc-note p{
+        margin:0;
+    }
     .payment-card-wrap .price-wrap {
-        margin-right: 0;
+        margin-right: 10px;
         margin-left: 15px;
     }
     .pc-details {
@@ -303,7 +313,7 @@ a.skl-button {
 .booking-card.calender-card .shedule-left .cal-lab {
 font-size: 14px;
 padding-left: 25px;
-font-size: 13px;
+font-size: 12px;
 }
 .booking-card.calender-card .signle-shedule {
     padding: 12px 0px;
@@ -529,7 +539,7 @@ form.serach-form i {
     .payment-card-wrap {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        padding-bottom: 10px;
+        padding-bottom: 25px;
     }
 .row.mapand-card {
     -webkit-box-orient: vertical;
@@ -582,7 +592,7 @@ form.serach-form i {
     margin-top: 30px;
 }
 .total-cost {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .booking-card.calender-card .shedule-left span.radio-style {
     top: 0px;
@@ -598,6 +608,9 @@ padding-top: 30px;
 }
 .skill-card-empty-text p {
 letter-spacing: 0;
+}
+.price-that-box {
+    margin-top: 30px;
 }
 }
 
@@ -706,12 +719,14 @@ section.banner-section {
     margin-left: 15px;
 }
 .booking-card.calender-card .shedule-left span.radio-style {
-left: 30px;
+left: 40px;
 }
 .booking-card.calender-card .shedule-left .cal-lab {
-padding-left: 70px;
+padding-left: 90px;
 }
-
+.pay-btn-wrap.text-center {
+    margin: 0px 1px;
+}
 }
 
 
@@ -922,6 +937,7 @@ span.prebook-radio-style {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        justify-content:center;
     }
     .payment-card-wrap .price-wrap p {
         margin-bottom: 10px;
@@ -943,7 +959,20 @@ padding-left: 60px;
 .booking-card.calender-card  .shedule-left span.radio-style {
 left: 20px;
 }
+.payment-first-wrap {
+    display: block;
+    width: 100%;
 }
+.price-that-box {
+    display: block;
+    padding: 16px 10px;
+    text-align: center;
+    width: 100%;
+}
+}
+
+
+
 
 @media (min-width: 318px) and (max-width: 390.98px) { 
 .skill-dropdwon-header p {
@@ -966,7 +995,8 @@ a.skl-button.cls-pre {
 font-size: 12px;
 }
 .booking-card.calender-card .shedule-left .cal-lab {
-padding-left: 30px;
+padding-left: 35px;
+font-size: 12px;
 }
 .booking-card.calender-card .shedule-left span.radio-style {
 left: 5px;

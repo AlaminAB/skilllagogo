@@ -122,6 +122,7 @@ hr.fc-divider {
   border-width: 1px;
   padding: 0;
   vertical-align: top;
+  font-family: "Avenir-Book", sans-serif;
 }
 
 .fc td.fc-today {
@@ -829,7 +830,9 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   font-size: 24px;
   margin: 0;
   font-weight: 900;
+  font-family: 'Avenir-Black', sans-seri;
 }
+
 
 /* View Structure
 --------------------------------------------------------------------------------------------------*/
