@@ -2431,6 +2431,7 @@ li.nav-item.nice-dropdown {
     transition: all 0.3s ease-in-out;
         border-radius: 0px 0px 5px 5px;
         z-index: 99;
+        padding-bottom: 6px;
 }
 
 .active-menu {
