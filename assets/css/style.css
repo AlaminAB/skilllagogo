@@ -2424,6 +2424,9 @@ li.nav-item.nice-dropdown {
     top: 0px;
     opacity: 0;
     visibility: hidden;
+      -webkit-tap-highlight-color: transparent;
+
+  white-space: nowrap;
 /* 
              transition:  0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform-origin: top bottom; */
@@ -2432,13 +2435,26 @@ li.nav-item.nice-dropdown {
         border-radius: 0px 0px 5px 5px;
         z-index: 99;
         padding-bottom: 6px;
+        pointer-events: auto;
+    -webkit-transform: scale(0.75) translateY(0);
+        -ms-transform: scale(0.75) translateY(0);
+            transform: scale(0.75) translateY(0);
 }
 
 .active-menu {
     opacity: 1;
     visibility: visible;
-    top: 50px;
+ 
 
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    -webkit-transform: scale(1) translateY(40px);
+        -ms-transform: scale(1) translateY(40px);
+            transform: scale(1) translateY(40px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9;
 }
 
 li.nav-item.nice-dropdown:after {
@@ -2458,9 +2474,10 @@ li.nav-item.nice-dropdown:after {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     width: 8px;
+        z-index: 9999;
 }
 
 li.nav-item.nice-dropdown.after-open:after {
@@ -2476,6 +2493,7 @@ li.nav-item.nice-dropdown.after-open:after {
 }
 
 a.nav-link.custom-dropdown-toggle {
-    position: relative;
+    background: #fff;
     z-index: 9999;
+    position: relative;
 }
