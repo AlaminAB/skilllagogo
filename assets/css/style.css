@@ -2411,3 +2411,64 @@ span.inp-icn {
     border: 1px solid #444eff;
     padding: 23px 0px;
 }
+
+li.nav-item.nice-dropdown {
+    position: relative;
+}
+
+.nice-dropdown-menu {
+    position: absolute;
+    left: 0;
+    border: 1px solid #dddd;
+    border-top: none;
+    top: 0px;
+    opacity: 0;
+    visibility: hidden;
+/* 
+             transition:  0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: top bottom; */
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+        border-radius: 0px 0px 5px 5px;
+}
+
+.active-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+
+}
+
+li.nav-item.nice-dropdown:after {
+    border-bottom: 1.5px solid #2B292D;
+    border-right: 1.5px solid #2B292D;
+    content: '';
+    display: block;
+    height: 8px;
+    margin-top: -10px;
+    pointer-events: none;
+    position: absolute;
+        margin-left: 85px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 8px;
+}
+
+li.nav-item.nice-dropdown.after-open:after {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent !important;
+}

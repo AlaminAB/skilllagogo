@@ -1,8 +1,19 @@
 
 /* ***Responsive media query*** */
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width:1500px){ 
+@media  (max-width:991px){ 
+.nice-dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: #fff;
+}
+li.nav-item.nice-dropdown:after {
 
+    margin-top: -5px;
+    width: 8px;
+    left: 41%;
+}
 }
 
 
@@ -1005,6 +1016,10 @@ font-size: 12px;
 .booking-card.calender-card .shedule-left span.radio-style {
 left: 5px;
 }
-
+li.nav-item.nice-dropdown:after {
+    margin-top: -5px;
+    width: 8px;
+    left: 38%;
+}
 }
 

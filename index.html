@@ -46,13 +46,13 @@
                                 <li class="nav-item ">
                                     <a class="nav-link" href="#">For Teachers</a>
                                 </li>
-                                <li class="nav-item dropdown ">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Singapore
+                                <li class="nav-item nice-dropdown ">
+                                    <a class="nav-link custom-dropdown-toggle" href="javascript:void(0)">
+                                        Location 
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <div class="nice-dropdown-menu" >
                                         <a class="dropdown-item" href="#">Singapore</a>
-                                        <a class="dropdown-item" href="#">Singapore</a>
+                                        <a class="dropdown-item" href="#">Jakarta</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
@@ -413,6 +413,10 @@
         $(this).css('padding-left', '45px')
     })
 
+$(".custom-dropdown-toggle").on("click",function(){
+	$(".nice-dropdown-menu").toggleClass("active-menu");
+	$(".nice-dropdown").toggleClass("after-open")
+})
  
     </script>
 </body>
