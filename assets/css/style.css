@@ -330,8 +330,8 @@ section.banner-section {
 
 .banner-skill-box {
     background: rgb(70,79,255);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(70,79,255,1)), color-stop(99%, rgba(135,174,254,1)), to(rgba(140,177,255,1)));
 background: -o-linear-gradient(top, rgba(70,79,255,1) 1%, rgba(135,174,254,1) 99%, rgba(140,177,255,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(70,79,255,1)), color-stop(99%, rgba(135,174,254,1)), to(rgba(140,177,255,1)));
 background: linear-gradient(180deg, rgba(70,79,255,1) 1%, rgba(135,174,254,1) 99%, rgba(140,177,255,1) 100%); 
     padding: 30px 30px;
     border-radius: 5px;
@@ -953,8 +953,8 @@ border-top: 1px solid #e0e0e0;
 /* more demand section  */
 .more-demand-section {
  background: rgb(70,79,255);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgba(70,79,255,1)), color-stop(98%, rgba(135,172,254,1)), color-stop(99%, rgba(133,170,255,1)));
 background: -o-linear-gradient(top, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98%, rgba(133,170,255,1) 99%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgba(70,79,255,1)), color-stop(98%, rgba(135,172,254,1)), color-stop(99%, rgba(133,170,255,1)));
 background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98%, rgba(133,170,255,1) 99%); 
     padding-top: 63px;
     padding-bottom: 45px;
@@ -998,8 +998,8 @@ background: linear-gradient(180deg, rgba(70,79,255,1) 2%, rgba(135,172,254,1) 98
   height: 100%;
   left: 0;
   top: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#0C16BE));
   background: -o-linear-gradient(top, #00000000, #0C16BE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#0C16BE));
   background: linear-gradient(180deg, #00000000, #0C16BE);
 }
 .skill-card-title {
@@ -2244,7 +2244,9 @@ span.inp-icn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
 }
 
 .pc-img img {
@@ -2371,8 +2373,12 @@ span.inp-icn {
 
 
 .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0;
     padding: 1rem 0;
     list-style-type: none;
@@ -2401,12 +2407,18 @@ span.inp-icn {
 }
 
 .payment-first-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .price-that-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 5px;
     border: 1px solid #444eff;
     padding: 23px 0px;
@@ -2431,6 +2443,7 @@ li.nav-item.nice-dropdown {
              transition:  0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform-origin: top bottom; */
     -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
         border-radius: 0px 0px 5px 5px;
         z-index: 99;
@@ -2453,6 +2466,7 @@ li.nav-item.nice-dropdown {
         -ms-transform: scale(1) translateY(40px);
             transform: scale(1) translateY(40px);
     -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    -o-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
@@ -2475,6 +2489,7 @@ li.nav-item.nice-dropdown:after {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
         -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     width: 8px;
         z-index: 9999;

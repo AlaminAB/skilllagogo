@@ -13,6 +13,10 @@
         $('.third-icon').toggleClass("icons");
     })
       
-
+$(".custom-dropdown-toggle").on("click",function(){
+    $(".nice-dropdown-menu").toggleClass("active-menu");
+    $(".nice-dropdown").toggleClass("after-open")
+})
+ 
 })
      

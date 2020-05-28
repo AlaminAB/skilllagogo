@@ -950,7 +950,9 @@ span.prebook-radio-style {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        justify-content:center;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
     }
     .payment-card-wrap .price-wrap p {
         margin-bottom: 10px;
@@ -1020,4 +1022,3 @@ li.nav-item.nice-dropdown:after {
     left: 38%;
 }
 }
-
