@@ -13,7 +13,9 @@ li.nav-item.nice-dropdown:after {
     left: 41%;
 }
 }
+@media  (min-width:768px){ 
 
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1200px) { 
@@ -23,6 +25,16 @@ li.nav-item.nice-dropdown:after {
         .calander-slider-page .col-12{
             padding-right: 10px !important;
     padding-left: 10px !important;
+    }
+    .pl-35{
+    padding-left: 30px !important;
+}
+   .prc_table{
+        max-width: 1090px;
+        margin: 0 auto;
+    }
+    .skill_m_title.low_pd{
+        padding: 0 80px;
     }
 }
 
@@ -34,6 +46,12 @@ li.nav-item.nice-dropdown:after {
       .p-left-118{
         padding-left: 118px;
     }
+    .our-product-description-wrap1 {
+    margin-top: 125px;
+}
+    .our-product-description-wrap2 {
+    margin-top: 60px;
+}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -122,6 +140,32 @@ form.serach-form button {
 .booking-card.calender-card .shedule-left .cal-lab{
     padding-left: 65px;
 }
+.about-us-des h1 {
+    font-size: 36px;
+    line-height: 42px;
+    }
+  .about-us-pre.pre-book-card .pre-book-card-body {
+    padding: 30px 40px;
+}
+.about-skill-card-wrp .skl-button {
+    font-size: 15px;
+}
+ h2.skill_m_title {
+        font-size: 52px;
+    }
+
+    h4.skill_m_subtitle {
+        margin-bottom: 60px;
+    }
+
+    .larg_gcard .gcard_wrap {
+        max-width: 50%;
+
+    }
+
+    .larg_gcard .gcard_wrap:first-child {
+        margin-right: 0;
+    }
 }
 
 
@@ -155,6 +199,9 @@ form.serach-form button {
     .product-mbr-btn{
         display: inline-block;
     }
+    .our-product-description {
+    margin-top: 30px;
+}
 }
 
 
@@ -366,6 +413,83 @@ a.skl-button.cls-pre {
     padding: 0 10px;
     padding-top: 0px;
 }
+.about-us-des h1 {
+    font-size: 26px;
+    line-height: 35px;
+    }
+    .about-banner-wrap {
+    margin-top: 70px;
+}
+.skill-card-col.col-lg-5.col-xl-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sm-device-reverse {
+    flex-direction: column-reverse !important;
+    margin-top: 35px;
+}
+.about-us-pre.pre-book-card {
+    transform: scale(0.8);
+}
+.extra-edit.about-skill-card-title {
+    top: 10px;
+}
+.about-us-single.single-product {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.skills-future-title h4 {
+    font-size: 23px;
+    line-height: 35px;
+}
+ h2.skill_m_title {
+        font-size: 52px;
+        padding: 0;
+    }
+
+    h4.skill_m_subtitle {
+        margin-bottom: 60px;
+    }
+
+    .single_skillm_img {
+        margin-bottom: 30px;
+    }
+
+    .gcard_wrap {
+        max-width: 50%;
+    }
+
+    .gcard_wrap:first-child {
+        margin-right: 0;
+    }
+
+    .single_gcard h4 {
+        font-size: 24px;
+    }
+
+    .single_gcard p {
+        margin-bottom: 90px;
+    }
+
+    .larg_gcard .gcard_wrap:first-child {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .larg_gcard .single_gcard p.last_p {
+        margin-bottom: 30px !important;
+    }
+    .goal_card_wrap {
+        margin-top: 80px;
+    }
+    .prc_table td{
+        max-width: 160px;
+    }
+    td.tb_fcol{
+        padding-left: 25px !important;
+    }
+
 }
 
 
@@ -624,6 +748,133 @@ letter-spacing: 0;
 .calender-footer.first-calander-footer .nice-select {
     margin-left: 12px;
 }
+.skill-card-col.col-lg-5.col-xl-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sm-device-reverse {
+    flex-direction: column-reverse !important;
+    margin-top: 35px;
+}
+.about-us-pre.pre-book-card {
+    transform: scale(0.8);
+}
+.extra-edit.about-skill-card-title {
+    top: 10px;
+}
+.about-us-single.single-product {
+    max-width: 300px;
+}
+.about-us-des h1 {
+    font-size: 25px;
+    line-height: 33px;
+}
+.skills-future-title h4 {
+    font-size: 25px;
+    line-height: 36px;
+}
+.about-banner-wrap {
+    margin-top: 70px;
+}
+.about-us-pre.pre-book-card .pre-book-info {
+    left: 0%;
+    width: 100%;
+    transform: scale(1);
+    padding: 0px 30px;
+}
+.our-product-description-wrap2 {
+    margin-top: 40px;
+}
+.our-product-description {
+    margin-bottom: 30px;
+}
+.skills-future-title {
+    padding: 0;
+}
+.skills-of-future-content {
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.skills-of-future-content p {
+    margin-bottom: 16px;
+}
+.team-member-wrapper {
+    grid-gap: 15px;
+}
+ h2.skill_m_title {
+        padding: 0;
+    }
+
+    h2.skill_m_title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .single_skillm_img {
+        margin-bottom: 30px;
+    }
+
+    h4.skill_m_subtitle {
+        margin-bottom: 50px;
+    }
+
+    .gcard_wrap:last-child .single_gcard p {
+        padding: 0;
+    }
+
+    .gcard_wrap:first-child {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .gcard_wrap .single_gcard h4 {
+        margin-bottom: 30px;
+    }
+
+    .gcard_wrap:first-child .single_gcard h4 {
+        margin-bottom: 30px;
+    }
+
+    .larg_gcard .gcard_wrap:first-child {
+        margin-right: 0;
+
+    }
+    .larg_gcard .single_gcard p.last_p {
+        margin-bottom: 30px !important;
+    }
+    .goal_card_wrap {
+        margin-top: 50px;
+    }
+    .single_gcard h4 {
+        font-size: 22px;
+    }
+    
+    td.tb_fcol{
+        padding-left: 15px !important;
+    }
+    .about_wr .sec_ttl, .about_wr .sec_ttl a, .about_wr .sec_ttl span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .single_gcard a.btn.btn-primary {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .prc_table td {
+        min-width: 100px;
+        font-size: 14px;
+        padding: 5px;
+        height: 100px;
+    }
+    td span.small {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    h2.skill_m_title {
+        margin-bottom: 25px;
+    }
 }
 
  
@@ -739,7 +990,19 @@ padding-left: 90px;
 .pay-btn-wrap.text-center {
     margin: 0px 1px;
 }
-
+ h2.skill_m_title {
+        font-size: 42px;
+        line-height: 56px;
+        padding: 0;
+    }
+    .about_wr .sec_ttl, .about_wr .sec_ttl a, .about_wr .sec_ttl span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .single_gcard a.btn.btn-primary {
+        font-size: 18px;
+        line-height: 32px;
+    }
 }
 
 
@@ -983,6 +1246,70 @@ left: 20px;
     padding: 16px 10px;
     text-align: center;
     width: 100%;
+}
+.about-banner-wrap {
+    margin-top: 50px;
+}
+.about-us-des {
+    padding: 0 10px;
+}
+.about-us-des h1 {
+    color: #2b292d;
+    font-size: 19px;
+    line-height: 28px;
+    }
+    .about-us-title h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.about-us-borderb {
+    padding-bottom: 40px;
+}
+.our-product-title h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.our-product-description h2 {
+    color: #15181f;
+    font-size: 20px;
+    line-height: 28px;
+    }
+    .our-prodct-btn a.active {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.our-prodct-btn a {
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+.about-us-pre.pre-book-card {
+    transform: scale(0.9);
+}
+.about-us-pre.pre-book-card .pre-book-info {
+    padding: 0px 20px;
+}
+.skills-future-title h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 38px;
+    }
+    .meet-team-title h2 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.team-member-wrapper {
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+.get-ing-touch h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.extra-edit.about-skill-card-title {
+    top: -25px;
 }
 }
 

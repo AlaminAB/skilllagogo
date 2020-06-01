@@ -167,7 +167,7 @@ ul.navbar-nav a {
 }
 input.search-button {
     display: inline-block;
-    padding: 11px 10px;
+    padding: 12px 10px;
     padding-left: 77px;
     width: 180px;
     border: 1px solid rgba(0,0,0,0.05);
@@ -1301,7 +1301,7 @@ ul.prebook-ul li label input:checked ~ span.prebook-radio-style{
     color: #fff;
     text-align: center;
     padding-bottom: 10px;
-    letter-spacing: -0.39px;
+    letter-spacing: -0.40px;
     font-family: 'Avenir-Medium', sans-serif;
 }
 
@@ -2424,6 +2424,9 @@ span.inp-icn {
     padding: 23px 0px;
 }
 
+
+/* animation nav dropdown  */
+
 li.nav-item.nice-dropdown {
     position: relative;
 }
@@ -2437,11 +2440,7 @@ li.nav-item.nice-dropdown {
     opacity: 0;
     visibility: hidden;
       -webkit-tap-highlight-color: transparent;
-
   white-space: nowrap;
-/* 
-             transition:  0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform-origin: top bottom; */
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -2452,6 +2451,7 @@ li.nav-item.nice-dropdown {
     -webkit-transform: scale(0.75) translateY(0);
         -ms-transform: scale(0.75) translateY(0);
             transform: scale(0.75) translateY(0);
+                background: #fff;
 }
 
 .active-menu {
@@ -2511,4 +2511,604 @@ a.nav-link.custom-dropdown-toggle {
     background: #fff;
     z-index: 9999;
     position: relative;
+}
+/* animation nav dropdown  end */
+
+
+/* about us page css  */
+.about-us-des {
+    padding: 0 25px;
+}
+.about-us-des h1 {
+    color: #2b292d;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'Avenir-Black', sans-serif;
+    letter-spacing: -0.2625px;
+    text-transform: unset;
+}
+.about-us-banner-img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-us-banner-img img {
+    width: 100%;
+    max-width: 600px;
+}
+.about-banner-wrap {
+    margin-top: 105px;
+}
+
+
+.about-us-title h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #4651ff;
+    font-family: 'Avenir-Black', sans-serif;
+    line-height: 39px;
+    padding-top: 8px;
+}
+
+.about-sub-title h3 {
+  color: #15181f;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Avenir-Black', sans-serif;
+}
+
+.about-description p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-family: 'Avenir-Book', sans-serif;
+}
+
+.about-sub-title {
+  margin-top: 45px;
+  padding-bottom: 15px;
+}
+.about-description p {
+  margin-bottom: 17px;
+}
+.about-description p b {
+    font-family: 'Avenir-Black', sans-serif;
+}
+.about-us-borderb {
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 65px;
+}
+
+.primary-color {
+    color: #4651ff !important;
+}
+
+
+.our-product-title h2 {
+  text-align: center;
+  color: #4751FF;
+  font-family: 'Avenir-Black', sans-serif;
+  font-size: 40px;
+  line-height: 68px;
+}
+
+.our-product-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.about-skill-card-title h4 {
+    font-size: 24px;
+    text-align: center;
+    color: #15181f;
+    font-family: 'Avenir-Black', sans-serif;
+    line-height: 65px;
+}
+
+
+.our-product-description h2 {
+  color: #15181f;
+  font-size: 24px;
+  line-height: 35px;
+      margin-bottom: 8px;
+  font-family: 'Avenir-Black', sans-serif;
+}
+
+.our-product-description p {
+  font-size: 18px;
+  color: #000;
+  font-family: 'Avenir-Book', sans-serif;
+      margin-bottom: 20px;
+}
+.our-prodct-btn {
+    margin-top: 32px;
+}
+.our-prodct-btn a {
+  padding: 15px 48px;
+  color:#4751ff;
+  border-radius: 5px;
+  font-size: 18px;
+      display: inline-block;
+  font-family: 'Avenir-Black', sans-serif;
+  border: 1px solid #4751ff;
+}
+.our-prodct-btn a:hover{
+ background: #4751ff;
+  color: #fff !important;
+}
+.our-prodct-btn a.active {
+  background: #4751ff;
+  color: #fff;
+  margin-right: 12px;
+}
+.our-prodct-btn a.active:hover {
+    background: #fff;
+    color: #4751ff !important;
+}
+.about-us-pre.pre-book-card {
+    transform: scale(0.73);
+}
+.about-us-pre.pre-book-card .prebook-ul li {
+    font-size: 13px;
+}
+.about-us-pre.pre-book-card .book-pickup-schedule h6 {
+    font-size: 13px;
+    line-height: 22px;
+}
+.about-us-pre.pre-book-card{
+    margin-bottom: 0px;
+}
+.about-us-pre.pre-book-card .pre-book-info {
+    position: absolute;
+    bottom: 30px;
+    left: 0%;
+    width: 100%;
+    transform: scale(0.88);
+    padding: 0px 20px;
+}
+.about-us-pre.pre-book-card  .pre-book-header {
+    height: 300px;
+    position: relative;
+    max-height: 300px;
+    width: 100%;
+}
+.about-des-card-wrap {
+    position: relative;
+        max-height: 685px;
+}
+.extra-edit.about-skill-card-title {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+}
+.about-us-single.single-product {
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.skills-future-title {
+    padding: 0px 30px;
+}
+.skills-future-title h4 {
+    color: #15181f;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: 'Avenir-Medium', sans-serif;
+}
+
+.skills-future-title h2 {
+    text-align: center;
+        margin-bottom: 27px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #444eff;
+    font-family: 'Avenir-Black', sans-serif;
+}
+.skills-f-broder {
+    border-top: 1px solid #D3D3D3;
+    padding-top: 50px;
+}
+.skills-of-the-future-wrap {
+    margin-top: 45px;
+}
+b{
+ font-family: 'Avenir-Black', sans-serif;   
+}
+.skills-of-future-content p {
+    color: #000;
+    font-size: 18px;
+    /* font-family: 'Avenir-Book', sans-serif; */
+    margin-bottom: 36px;
+}
+
+.skills-of-future-content {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.skills-of-future-content p a {
+    font-family: 'Avenir-Book', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+.meet-team-title h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Avenir-Black', sans-serif;
+    color: #444eff;
+    line-height: 60px;
+}
+
+.meet-team-title p {
+    color: #000;
+    text-align: center;
+}
+.row.team-border-t {
+    border-top: 1px solid #D3D3D3;
+    margin-top: 35px;
+}
+
+.meet-team-title {
+    padding-top: 55px;
+        padding-bottom: 30px;
+}
+
+.team-member-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+.team-member-img img {
+    width: 100%;
+    max-width: 114px;
+}
+
+.team-member-des h4 {
+    font-size: 14px;
+    color: #4651ff;
+    font-family: 'Avenir-Black', sans-serif;
+    text-align: center;
+    line-height: 20px;
+        margin-bottom: 5px;
+}
+
+.team-member-des h5 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.team-member-des {
+    margin-top: 21px;
+    margin-bottom: 50px;
+}
+.get-ing-touch h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #444eff;
+    margin-bottom: 30px;
+    line-height: 60px;
+    font-family: 'Avenir-Block', sans-serif;
+}
+
+.get-ing-touch h5 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Avenir-Black', sans-serif;
+}
+
+.get-ing-touch p {
+    text-align: center;
+    color: #000;
+}
+
+.get-in-touch-b {
+    border-top: 1px solid #D3D3D3;
+    padding-top: 55px;
+    margin-top: 10px;
+}
+
+.get-ing-touch p a {
+    color: #444eff;
+    font-size: 17px;
+    font-family: 'Avenir-Black', sans-serif;
+}
+
+.get-ing-touch {
+    padding-bottom: 30px;
+}
+.about-us-spacer {
+    margin-bottom: 100px;
+}
+
+/* about us page css end */
+
+
+/* banifit page css */
+.bg-color-1{
+    background-color: #F9FAFB;
+}
+.bg-color-2{
+    background-color: #F3F3F8;
+}
+.avn_black{
+    font-family: "Avenir-Black" !important;
+}
+.bnf_sc_padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+h2.skill_m_title {
+    color: #2b292d;
+    font-family: "Avenir-Black";
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    padding: 0 180px;
+    margin-bottom: 45px;
+}
+
+h4.skill_m_subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+h5.skill_m_subtitle {
+    color: #2b292d;
+    font-size: 24px;
+    font-family: "Avenir-Book";
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.single_skillm_cont h4 {
+    color: #15181f;
+    font-family: "Avenir-Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.single_skillm_cont p, .single_skillm_cont p a, .jurney_goal p, .member_plan p {
+    color: #15181f;
+    font-family: "Avenir-Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.single_skillm_cont a{
+    text-decoration: underline;
+    color: #4153f5;
+}
+
+.single_gcard {
+    padding: 40px 20px;
+    border-radius: 8px;
+    border: solid 1px rgba(43,41,45,0.2);
+}
+
+.single_gcard h4 {
+    color: #2b292d;
+    font-family: "Avenir-Black";
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 65px;
+}
+
+.single_gcard p {
+    margin-bottom: 60px;
+}
+
+.single_gcard a.btn.btn-primary {
+    border-radius: 6px;
+    background: #444eff;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+    color: #ffffff;
+    font-family: "Avenir-Black";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.single_gcard a.btn.btn-primary:hover {
+    background-color: transparent;
+}
+
+.gcard_wrap {
+    max-width: 375px;
+}
+
+.gcard_wrap:first-child {
+    margin-right: 40px;
+}
+
+.gcard_wrap:first-child .single_gcard h4 {
+    margin-bottom: 32px;
+}
+
+.gcard_wrap:last-child .single_gcard p {
+    margin-bottom: 28px;
+    padding: 0 5px;
+}
+
+.goal_card_wrap {
+    margin-top: 100px;
+}
+
+.larg_gcard .gcard_wrap{
+    max-width: 506px;
+}
+
+.larg_gcard .single_gcard h4 {
+    margin-bottom: 45px !important;
+}
+
+.larg_gcard .single_gcard p {
+    margin-bottom: 30px !important;
+}
+
+.larg_gcard .single_gcard p.last_p {
+    margin-bottom: 60px !important;
+}
+
+.larg_gcard .single_gcard a.btn.second {
+    margin-top: 15px;
+    background-color: transparent;
+    color: #3041c4;
+}
+ a.btn.btn-primary.second:hover {
+    color: #fff !important;
+    background: #444eff;
+}
+.larg_gcard .gcard_wrap:first-child{
+    margin-right: 20px;
+}
+
+.larg_gcard .gcard_wrap:last-child .single_gcard p {
+    padding: 0;
+}
+
+p.sec_ttl{
+    font-size: 24px;
+}
+
+span.round_chk{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #767677;
+    border-radius: 50%;
+    display: inline-block;
+    float: none;
+    /* cursor: pointer; */
+}
+span.round_chk.active{
+    border: 2px solid #444eff;
+}
+
+span.round_chk.active:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #444eff;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: block;
+}
+
+.prc_table td, .prc_table th{
+    color: #2b292d;
+    font-family: "Avenir-Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.prc_table th.large_th{
+    width: 260px;
+
+}
+
+.prc_table td{
+    width: 200px;
+    height: 130px;
+    vertical-align: middle;
+}
+
+.prc_table .btn.btn-primary{
+    width: 100%;
+    max-width: 164px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+    background-color: #444eff;
+}
+
+.prc_table .btn.btn-primary:hover{
+    background-color: transparent;
+}
+
+.prc_table tr.low_hg td{
+    height: 40px;
+}
+
+.prc_table tr.btn_wr td{
+    height: 100px;
+}
+
+
+td.tb_fcol{
+    padding-left: 45px !important;
+}
+
+td span.small{
+    color: #2b292d;
+    font-family: "Avenir-Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
+.member_plan .sec_ttl{
+    margin-bottom: 90px;
+}
+
+.about_wr .sec_ttl,.about_wr .sec_ttl a, .about_wr .sec_ttl span{
+    color: #2b292d;
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about_wr .sec_ttl a{
+    color: #444eff;
+    text-decoration: underline;
+}
+
+.teacher-benefits.skills-of-future-content p {
+        color: #848894;
+}
+
+.teacher-benefits.skills-of-future-content p a {
+    color: #444fff;
+    font-family: 'Avenir-Black', sans-serif;
+    text-decoration: underline;
+}
+
+.teacher-benefits.skills-of-future-content p a:hover {
+    text-decoration: none;
+}
+
+.teacher-benefits.skills-of-future-content {
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
