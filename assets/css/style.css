@@ -2646,7 +2646,9 @@ a.nav-link.custom-dropdown-toggle {
     color: #4751ff !important;
 }
 .about-us-pre.pre-book-card {
-    transform: scale(0.73);
+    -webkit-transform: scale(0.73);
+        -ms-transform: scale(0.73);
+            transform: scale(0.73);
 }
 .about-us-pre.pre-book-card .prebook-ul li {
     font-size: 13px;
@@ -2663,7 +2665,9 @@ a.nav-link.custom-dropdown-toggle {
     bottom: 30px;
     left: 0%;
     width: 100%;
-    transform: scale(0.88);
+    -webkit-transform: scale(0.88);
+        -ms-transform: scale(0.88);
+            transform: scale(0.88);
     padding: 0px 20px;
 }
 .about-us-pre.pre-book-card  .pre-book-header {
@@ -2680,7 +2684,9 @@ a.nav-link.custom-dropdown-toggle {
     position: absolute;
     width: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: 30px;
 }
 .about-us-single.single-product {
@@ -2725,8 +2731,10 @@ b{
 }
 
 .skills-of-future-content {
+    display: -ms-grid;
     display: grid;
     margin-top: 30px;
+    -ms-grid-columns: auto auto auto auto;
     grid-template-columns: auto auto auto auto;
 }
 
@@ -2759,9 +2767,13 @@ b{
 }
 
 .team-member-wrapper {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 25px auto 25px auto 25px auto;
     grid-template-columns: auto auto auto auto;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     grid-gap: 25px;
 }
 
@@ -2920,7 +2932,8 @@ h5.skill_m_subtitle {
 .single_gcard a.btn.btn-primary {
     border-radius: 6px;
     background: #444eff;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
     color: #ffffff;
     font-family: "Avenir-Black";
     font-size: 18px;
@@ -3044,7 +3057,8 @@ span.round_chk.active:after {
 .prc_table .btn.btn-primary{
     width: 100%;
     max-width: 164px;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
     background-color: #444eff;
 }
 
