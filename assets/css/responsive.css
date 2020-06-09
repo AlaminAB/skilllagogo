@@ -501,7 +501,9 @@ a.skl-button.cls-pre {
     td.tb_fcol{
         padding-left: 25px !important;
     }
-
+li.nav-item.nice-dropdown:after {
+    left: 43%;
+}
 }
 
 
