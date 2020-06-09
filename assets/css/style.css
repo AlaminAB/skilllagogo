@@ -2876,7 +2876,6 @@ h2.skill_m_title {
     line-height: 56px;
     text-align: center;
     letter-spacing: -0.5px;
-    padding: 0 180px;
     margin-bottom: 45px;
         text-transform: unset;
 }
@@ -3144,6 +3143,9 @@ td span.small{
 .teacher-benefits.skills-of-future-content {
     margin-top: 0px;
     margin-bottom: 50px;
+}
+.about_wr .sec_ttl a:hover {
+    text-decoration: none;
 }
 .font-book{
    font-family: "Avenir-Book",sans-serif !important; 
