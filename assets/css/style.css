@@ -2897,6 +2897,7 @@ h5.skill_m_subtitle {
     line-height: 34px;
     text-align: center;
     margin-bottom: 90px;
+    text-transform: unset;
 }
 .single_skillm_img {
     text-align: center;
