@@ -2618,6 +2618,7 @@ a.nav-link.custom-dropdown-toggle {
   line-height: 35px;
       margin-bottom: 8px;
   font-family: 'Avenir-Black', sans-serif;
+      text-transform: unset;
 }
 
 .our-product-description p {
@@ -2709,6 +2710,7 @@ a.nav-link.custom-dropdown-toggle {
     font-size: 24px;
     line-height: 34px;
     font-family: 'Avenir-Medium', sans-serif;
+        text-transform: unset;
 }
 
 .skills-future-title h2 {
@@ -2822,6 +2824,7 @@ b{
     line-height: 24px;
     margin-bottom: 20px;
     font-family: 'Avenir-Black', sans-serif;
+        text-transform: unset;
 }
 
 .get-ing-touch p {
@@ -2875,6 +2878,7 @@ h2.skill_m_title {
     letter-spacing: -0.5px;
     padding: 0 180px;
     margin-bottom: 45px;
+        text-transform: unset;
 }
 
 h4.skill_m_subtitle {
@@ -2884,10 +2888,11 @@ h4.skill_m_subtitle {
     line-height: 34px;
     text-align: center;
     margin-bottom: 90px;
+        text-transform: unset;
 }
 h5.skill_m_subtitle {
     color: #2b292d;
-    font-size: 24px;
+    font-size: 22px;
     font-family: "Avenir-Book";
     font-weight: 400;
     line-height: 34px;
@@ -2904,6 +2909,7 @@ h5.skill_m_subtitle {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px;
+        text-transform: unset;
 }
 
 .single_skillm_cont p, .single_skillm_cont p a, .jurney_goal p, .member_plan p {
@@ -2932,6 +2938,7 @@ h5.skill_m_subtitle {
     font-size: 26px;
     line-height: 32px;
     margin-bottom: 65px;
+    text-transform: unset;
 }
 
 .single_gcard p {
@@ -2958,7 +2965,7 @@ h5.skill_m_subtitle {
 }
 
 .gcard_wrap {
-    max-width: 375px;
+    max-width: 377px;
 }
 
 .gcard_wrap:first-child {
@@ -2967,6 +2974,7 @@ h5.skill_m_subtitle {
 
 .gcard_wrap:first-child .single_gcard h4 {
     margin-bottom: 32px;
+    text-transform: unset;
 }
 
 .gcard_wrap:last-child .single_gcard p {
@@ -3077,6 +3085,8 @@ span.round_chk.active:after {
 
 .prc_table tr.low_hg td{
     height: 40px;
+
+    font-family: 'Avenir-Medium', sans-serif
 }
 
 .prc_table tr.btn_wr td{
@@ -3134,4 +3144,11 @@ td span.small{
 .teacher-benefits.skills-of-future-content {
     margin-top: 0px;
     margin-bottom: 50px;
+}
+.font-book{
+   font-family: "Avenir-Book",sans-serif !important; 
+}
+.medium-font{
+
+    font-family: 'Avenir-Medium', sans-serif !important;
 }
